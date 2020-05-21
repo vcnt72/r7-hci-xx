@@ -1,0 +1,35 @@
+.navbar-vertical {
+    list-style: none;
+    width: 100%;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    position: fixed;
+    height: auto;
+    color: white;
+}
+
+.navbar-vertical-hide {
+    display: none;
+}
+
+.navbar-vertical li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+}
+
+
+nav .nav-menu {
+    width: 1.5rem;
+}
+
+.nav-menu-hide {
+    display: none;
+}
+
+.nav-menu-show {
+    display: inline-block;
+}

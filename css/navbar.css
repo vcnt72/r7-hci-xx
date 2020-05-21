@@ -1,0 +1,34 @@
+nav {
+    padding: 20px;
+}
+
+nav .navbar-container {
+    list-style: none;
+}
+
+nav .navbar-container li {
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+nav .navbar-container .navbar-side-container {
+    float: right;
+}
+
+nav .navbar-container .logo {
+    color: white;
+    width: 150px;
+}
+
+nav .navbar-container li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 45px;
+}
+
+nav .navbar-container li a:hover {
+    color: rgb(54,169,224);
+}
+
+

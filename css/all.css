@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    font-family: Oswald;
+}
+
+
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+.btn {
+    border-radius: 1;       
+    display: block;
+}
