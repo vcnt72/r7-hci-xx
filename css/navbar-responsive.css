@@ -1,35 +1,48 @@
 .navbar-vertical {
-    list-style: none;
-    width: 100%;
-    border: 1px solid white;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 10px;
-    position: fixed;
-    height: auto;
-    color: white;
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 10px 5%;
+  position: fixed;
+  height: auto;
+  color: white;
 }
 
 .navbar-vertical-hide {
-    display: none;
+  display: none;
 }
 
-.navbar-vertical li a{
-    display: block;
-    text-decoration: none;
-    color:white;
+.navbar-vertical li a {
+  display: block;
+  text-decoration: none;
+  color: white;
 }
-
 
 nav .nav-menu {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .nav-menu-hide {
-    display: none;
+  display: none;
 }
 
 .nav-menu-show {
-    display: inline-block;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  nav .navbar-container {
+    padding: 3% 5% 0 5%;
+  }
+
+  nav .navbar-container .logo-container {
+    width: 15%;
+  }
+
+  nav .navbar-container .navbar-side-container #menuIcon {
+    display: block;
+  }
+  nav .navbar-container .navbar-side-container .nav-text {
+    display: none;
+  }
 }
