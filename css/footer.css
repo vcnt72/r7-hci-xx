@@ -6,6 +6,7 @@ footer {
   /*position: fixed;*/
   color: white;
   background-color: black;
+  font-family: 'Roboto';
 }
 
 footer .footer-logo-container {
@@ -15,6 +16,7 @@ footer .footer-logo-container {
 footer .footer-logo-container .find-us-text {
   font-size: 2.3em;
   padding: 15px 0;
+  font-family: 'Oswald';
 }
 
 footer .footer-logo-container .social-media {
@@ -42,7 +44,7 @@ footer .footer-logo-container .footer-logo-img {
   text-align: center;
   width: 705px;
   margin: 15px auto;
-  font-family: Roboto;
+  font-family: 'Roboto';
   opacity: 0.5;
   max-width: 100%;
 }

@@ -1,3 +1,5 @@
+
+
 .img-background {
   background-image: url("../assets/image/zwG8tL8-carbon-fiber-wallpaper.jpg");
 }
@@ -7,6 +9,11 @@
   padding: 35px 100px;
   height: 100%;
 }
+
+.operator-box-container h1 {
+  font-family: 'Oswald';
+}
+
 
 .img-operator-container .img-operator {
     width: 125px;
@@ -23,4 +30,7 @@
     margin-top: 40px;
     max-width: 100%;
     font-size: 1.5vw;
+    font-family: 'Roboto';
 }
+
+
