@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainbow 7 Siege - Official Website</title>
     <!-- Layout setup -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/roboto-fonts.css">
@@ -18,27 +18,33 @@
     <link rel="stylesheet" href="css/operator-responsive.css">
     <script src="js/jquery-3.5.1.js"></script>
     <!-- Specific stylesheet setup -->
-
 </head>
 
 <body>
     <nav>
-        <ul class="navbar-container">
-            <li><img class="logo img-fluid" src="assets/image/rainbow-six-siege-logo-png-3.png" alt="r7-logo"></li>
+        <ul class="navbar-container middle">
+            <li class="logo-container">
+                <img class="img-fluid" src="assets/image/logo-white.png" alt="r7-logo" />
+            </li>
             <div class="navbar-side-container">
-                <li class="nav-text"><a href="#">Home</a></li>
-                <li class="nav-text"><a href="#">Operators</a></li>
-                <li class="nav-text"><a href="#">Maps</a></li>
-                <li class="nav-text"><a href="#">Pre-order</a></li>
-                <li><a href="#" id="menuIcon" role="button"><img class="nav-menu nav-menu-hide"
-                            src="assets/image/menu-icon.png" alt=""></a></li>
+                <li class="nav-text"><a href="index.html">HOME</a></li>
+                <li class="nav-text"><a href="operators.html">OPERATORS</a></li>
+                <li class="nav-text"><a href="maps.html">MAPS</a></li>
+                <li class="nav-text">
+                    <a href="quarantine.html">QUARANTINE</a>
+                </li>
+                <li class="nav-text">
+                    <a href="pre-order.html" class="pre-order-container">PRE-ORDER</a>
+                </li>
+                <li>
+                    <a href="#" id="menuIcon" role="button"><img class="nav-menu nav-menu-hide"
+                            src="assets/image/menu-icon.png" alt="" /></a>
+                </li>
             </div>
         </ul>
     </nav>
 
-    <ul class="navbar-vertical navbar-vertical-hide">
-
-    </ul>
+    <ul class="navbar-vertical navbar-vertical-hide"></ul>
 
     <div class="container">
         <div class="operator-box-container img-background">
@@ -91,22 +97,49 @@
             </div>
         </div>
     </div>
+    <div class="operator-box-container img-background">
+        <div class="img-operator">
+            <img src="./assets/image/operators/IQ_-_Full_Body.png" alt="IQ" />
+        </div>
+        <div class="character-info">
+            <h1>IQ - Mathematician</h1>
+            <p>
+                Weiss's mother is a renowned mathematician and her father is an
+                inventor who high academic standards encouraged Weiss and her
+                siblings to win numerous awards in math, science, and music
+                throughout their school years. Thriving in the gifted program
+                enabled Weiss to complete her first internship with a local tech
+                company at the age of sixteen. She was invited to MIT, where she
+                focused on electrical engineering, achieving accolades for her
+                research in Microelectronics. Weiss then joined Caltech for graduate
+                studies in experimental electrical engineering.
+            </p>
+        </div>
+    </div>
+    </div>
 
     <footer>
         <div class="footer-logo-container">
-            <h1>Find us on:</h1>
-            <ul>
-                <li><img src="assets/image/youtube-logo.png" alt="" class="footer-logo-img img-fluid"></li>
-                <li><img class="footer-logo-img img-fluid" src="assets/image/facebook-white-logo.png" alt=""></li>
-                <li><img class="footer-logo-img img-fluid" src="assets/image/twitter_logo_img.png" alt=""></li>
-                <li><img src="assets/image/instagram-white-logo.png" alt="" width="40px" class="img-fluid"></li>
+            <h1 class="find-us-text">FIND US ON:</h1>
+            <ul class="social-media middle">
+                <li>
+                    <img src="assets/image/youtube-logo.png" alt="" class="footer-logo-img img-fluid" />
+                </li>
+                <li>
+                    <img class="footer-logo-img img-fluid" src="assets/image/facebook-white-logo.png" alt="" />
+                </li>
+                <li>
+                    <img class="footer-logo-img img-fluid" src="assets/image/twitter_logo_img.png" alt="" />
+                </li>
+                <li>
+                    <img src="assets/image/instagram-white-logo.png" alt="" width="40px" class="img-fluid" />
+                </li>
             </ul>
         </div>
 
         <div class="copyright-text">
-            <p>&copy; 2015 Ubipost Entertainment. All Rights Reserved. Tom Clancy’s, R7, The Quarantine Icon,
-                Ubipost and the Ubipost logo are registered or unregistered trademarks of Ubipost Entertainment in the
-                Uzbek and/or other countries.
+            <p>
+                &copy; 2020 Ubipost Entertainment. All Rights Reserved.
             </p>
         </div>
     </footer>
