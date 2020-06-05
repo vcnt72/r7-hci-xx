@@ -1,3 +1,8 @@
+nav {
+  position: fixed;
+  width: 100%;
+}
+
 nav .navbar-container {
   list-style-type: none;
   background-color: black;
