@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="css/navbar-responsive.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/footer-responsive.css" />
+    <link rel="stylesheet" href="../r7-hci-xx/index.css">
+    <link rel="stylesheet" href="../r7-hci-xx/index-responsive.css">
+    
     <script src="js/jquery-3.5.1.js"></script>
+    <script src="../r7-hci-xx/js/homepage-script.js"></script>
     <!-- Specific stylesheet setup -->
   </head>
 
@@ -54,7 +58,123 @@
 
     <ul class="navbar-vertical navbar-vertical-hide"></ul>
 
-    <div class="container">a</div>
+    <div class="container">
+      <div class="container-page-1">
+        <img class="container-page-1-logo" 
+          src="assets/image/logo-white.png" 
+          alt="">
+        <img class="double-arrow"   
+          src="../r7-hci-xx/assets/image/double-arrow.png" 
+          alt="" onclick="scrollDown()">
+      </div>
+      
+      <div class="container-page-2">
+
+        <div class="title-main">SEASON</div>
+      
+        <div class="season-content">
+
+          <div class="season-arrow">
+              <img class="arrow-left" src="../r7-hci-xx/assets/image/arrow.png" alt="">
+          </div>
+          
+          <div class="season-content-main">
+            <div class="season-slide" style="left: 0%">
+              <img class="season-image" src="assets/image/homepage/carrousel-1.jpg" alt="">
+              <h2 class="season-name">Danau Toba</h2>
+            </div>
+
+            <div class="season-slide" style="left: -100%">
+                <img class="season-image" src="assets/image/homepage/carrousel-2.jpg" alt="">
+                <h2 class="season-name">Tanah Toraja</h2>
+            </div>
+
+            <div class="season-slide" style="left: -100%">
+                <img class="season-image" src="assets/image/homepage/carrousel-3.jpg" alt="">
+                <h2 class="season-name">Hijau Daun</h2>
+            </div>
+
+            <div class="season-slide" style="left: -100%">
+                <img class="season-image" src="assets/image/homepage/carrousel-4.jpg" alt="">
+                <h2 class="season-name">Pak Jokowi</h2>
+            </div>
+          </div>
+
+          <div class="season-arrow">
+              <img class="arrow-right" src="../r7-hci-xx/assets/image/arrow.png" alt="">
+          </div>
+
+          
+        </div>
+
+      </div>
+      <div class="container-page-3">
+        <h1 class="title-main">UPDATE & NEWS</h1>
+
+        <div class="news-content">
+
+          <div class="highlight">
+            <h2 class="title-sub">HIGHLIGHT</h2>
+            <img class="highlight-image" 
+            src="../r7-hci-xx/assets/image/homepage/highlight.png" 
+            alt="">
+            <div class="highlight-content">
+              <h3 class="highlight-title">OPERATION BANSHEE STEEL-UPCOMING SEASON</h3>
+              <br>
+              <h4 class="highlight-text">
+                Don't miss it, Operation Banshee Steel is coming in 
+                Rainbow Seven Siege. Two new Operators join this 
+                season, Haughland and Ndlovu. With them, expect 
+                a newly reworked Home into the game.
+              </h4>
+            </div>
+
+          </div>
+                      
+          <div class="latest-news">
+            <h2 class="title-sub">LATEST NEWS</h2>
+            <div class="latest-news-container">
+              <img class="latest-news-image" src="../r7-hci-xx/assets/image/homepage/masaru-elite.png" 
+                alt="">
+              <div class="latest-news-content">
+                <p class="latest-news-date">01/06/2020</p>
+                <p class="latest-news-title">MASARUELITE SET</p>
+                <p class="latest-news-text">Masaru Elite Set is coming in next season,
+                  Operation Banshee Steel
+                </p>
+              </div>
+              </p>
+            </div>
+            <div class="latest-news-container">
+              <img class="latest-news-image" src="../r7-hci-xx/assets/image/homepage/mafia-event.png" 
+                alt="">
+              <div class="latest-news-content">
+                <p class="latest-news-date">10/05/2020</p>
+                <p class="latest-news-title">LIMITED-TIME MAFIA EVENT</p>
+                <p class="latest-news-text">Starting today, play the Mafia Event and get the
+                  exclusive items, only until May 17th
+                </p>
+              </div>
+            </div>
+            <div class="latest-news-container">
+              <img class="latest-news-image" src="../r7-hci-xx/assets/image/homepage/halloween-event.png" 
+                alt="">
+              <div class="latest-news-content">
+                <p class="latest-news-date">31/10/2019</p>
+                <p class="latest-news-title">LIMITED-TIME HALLOWEEN EVENT</p>
+                <p class="latest-news-text">Starting today, play the Halloween Event and get
+                  the exclusive items, only until November 5th
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
 
     <footer>
       <div class="footer-logo-container">
@@ -100,4 +220,10 @@
     </footer>
   </body>
   <script src="js/navbar-responsive.js"></script>
+  <!-- <script src="../r7-hci-xx/season-slider.js"></script> -->
+  <!-- <script>
+      function scrollWin() {
+        window.scrollBy(0, 650);
+      }
+  </script> -->
 </html>
