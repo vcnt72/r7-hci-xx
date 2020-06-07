@@ -1,0 +1,220 @@
+.body{
+  margin: 0;
+  width: 100%;
+}
+.container{
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.container-page-1{
+  
+	background-color: rgb(0,0,0,0.8);
+	background-image: url("../r7-hci-xx/assets/image/homepage/homepage-bg-1.jpg");
+  background-blend-mode: overlay;
+  overflow: hidden;
+	width: 100%;
+	height: 550px;
+	background-repeat: no-repeat; 
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-size: cover;
+	 /* naro backround ditengah */
+	 /*supaya ga berulang*/
+
+	
+}
+/*.container-page-1{
+  background-image: url("../r7-hci-xx/assets/image/homepage/homepage-bg-1.jpg");
+  background-color: #0000006e;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px; 
+}*/
+
+.container-page-1-logo{
+  display: block;
+  padding: 2% 2% 0% 2%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 18%;
+}
+
+.double-arrow{
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.container-page-2{
+  background-color: #000000c7;
+  background-image: url("../r7-hci-xx/assets/image/homepage/season-bg.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 750px;
+}
+
+.title-main{
+  left: 44px;
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  /* margin: 26px 0px 0px 0px; */
+}
+
+.season-content{
+  display: flex;
+  margin-top: 3%;
+  width: 100%;
+  height: auto;
+}
+
+.season-slide{
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.season-content-main{
+  position:relative;
+  margin: 0;
+  width: 60%;
+  margin: 0% 5% 0% 5%;
+  overflow:hidden;
+}
+
+.season-image{
+  width: 100%;
+  height: auto;
+}
+
+.season-name{
+  position: absolute;
+  background-color: #272727;
+  height: auto;
+  width: 100%;
+  color: white;
+  font-size: 3vw;
+}
+
+.season-arrow{
+  width: 30%;
+  margin-top:10%;
+}
+
+.arrow-left{
+  width: 15%;
+  padding: 0% 70% 90% 0%;
+  transform: rotate(90deg);
+}
+
+.arrow-right{
+  width: 15%;
+  padding: 0% 0% 90% 70%;
+  transform: rotate(-90deg);
+}
+
+.container-page-3{
+  background-color: #000605;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.news-content{
+  background-color: #0A0A0A;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.highlight{
+  width: 100%;
+  text-align: center;
+  margin: 0% auto 0% auto;
+}
+
+.title-sub{
+  color: white;
+  font-size: 2em;
+}
+
+.highlight-image{
+  width: 80%;
+  height: auto;
+}
+
+.highlight-content{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #272727;
+  color: white;
+  width: 80%;
+  height: auto;
+}
+
+.highlight-title{
+  font-size: 1.75em;
+  padding-top: 3px;
+}
+
+.highlight-text{
+  font-size: 1.2em;
+  padding: 0px 40px 10px 40px;
+}
+
+.latest-news{
+  width: 100%;
+  text-align: center;
+  margin: 0% auto 0% auto;
+}
+
+.latest-news-container{
+  display: flex;
+  text-align: left;
+  padding: 0% 10% 5% 0%
+}
+
+.latest-news-image{
+  width: 31%;
+}
+
+.latest-news-content{
+  background-color: #272727;
+  color: white;
+  padding: 2% 2% 2% 2%;
+  width: 100%;
+}
+
+.latest-news-date{
+  font-size: 1em;
+  color: #888888;
+  /* margin-top: 5px; */
+}
+
+.latest-news-title{
+  font-size: 1.75em;
+  /* margin-top: 5px; */
+}
+
+.latest-news-text{
+  font-size: 1em;
+  font-weight: lighter;
+  margin-top: 5px;
+  /* padding-right: 10px; */
+}
+
