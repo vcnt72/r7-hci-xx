@@ -3,38 +3,22 @@
   width: 100%;
 }
 .container{
-  position: relative;
+  /* position: relative; */
   text-align: center;
   width: 100%;
 }
 
 .container-page-1{
-  
 	background-color: rgb(0,0,0,0.8);
-	background-image: url("../r7-hci-xx/assets/image/homepage/homepage-bg-1.jpg");
+	background-image: url("../assets/image/homepage/homepage-bg-1.jpg");
   background-blend-mode: overlay;
   overflow: hidden;
 	width: 100%;
 	height: 550px;
 	background-repeat: no-repeat; 
-	/* background-attachment: fixed; */
 	background-position: center;
 	background-size: cover;
-	 /* naro backround ditengah */
-	 /*supaya ga berulang*/
-
-	
 }
-/*.container-page-1{
-  background-image: url("../r7-hci-xx/assets/image/homepage/homepage-bg-1.jpg");
-  background-color: #0000006e;
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 550px; 
-}*/
 
 .container-page-1-logo{
   display: block;
@@ -45,6 +29,7 @@
 }
 
 .double-arrow{
+  cursor: pointer;
   width: 5%;
   display: block;
   margin-left: auto;
@@ -54,13 +39,14 @@
 
 .container-page-2{
   background-color: #000000c7;
-  background-image: url("../r7-hci-xx/assets/image/homepage/season-bg.jpg");
+  background-image: url("../assets/image/homepage/season-bg.jpg");
   background-size: cover;
   background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   width: 100%;
-  height: 750px;
+  height: auto;
 }
 
 .title-main{
@@ -68,59 +54,60 @@
   font-size: 5vw;
   text-align: center;
   color: white;
-  /* margin: 26px 0px 0px 0px; */
+}
+
+.season-flex-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  height: 750px;
 }
 
 .season-content{
-  display: flex;
-  margin-top: 3%;
-  width: 100%;
+  text-align: center;
+  color: white;
+  width: 50%;
   height: auto;
+  overflow: hidden;
 }
 
 .season-slide{
-  position: absolute;
-  width: 100%;
-  height: auto;
+  display: none;
+  max-width: 100%;
+  margin: auto;
 }
-
-.season-content-main{
-  position:relative;
-  margin: 0;
-  width: 60%;
-  margin: 0% 5% 0% 5%;
-  overflow:hidden;
-}
-
 .season-image{
   width: 100%;
   height: auto;
 }
 
 .season-name{
-  position: absolute;
-  background-color: #272727;
-  height: auto;
   width: 100%;
+  height: auto;
+  background-color: #272727;
   color: white;
   font-size: 3vw;
+  font-family: Scout Condensed Normal;
+  font-weight: 700;
 }
 
 .season-arrow{
-  width: 30%;
-  margin-top:10%;
+  text-align: center;
+  padding-top: 10%;
+  width: 25%;
+  height: auto;
 }
 
-.arrow-left{
-  width: 15%;
-  padding: 0% 70% 90% 0%;
-  transform: rotate(90deg);
+.arrow-prev, .arrow-next{
+  width: 100%;
+  font-size: 7vw;
+  color: white;
+  cursor: pointer;
 }
 
-.arrow-right{
-  width: 15%;
-  padding: 0% 0% 90% 70%;
-  transform: rotate(-90deg);
+.arrow-prev:hover, .arrow-next:hover{
+  color: grey;
 }
 
 .container-page-3{
@@ -169,12 +156,15 @@
 
 .highlight-title{
   font-size: 1.75em;
+  letter-spacing: 1px;
   padding-top: 3px;
 }
 
 .highlight-text{
   font-size: 1.2em;
-  padding: 0px 40px 10px 40px;
+  font-family: Scout Condensed Thin;
+  font-weight: lighter;
+  padding: 0px 40px 27px 40px;
 }
 
 .latest-news{
@@ -202,18 +192,23 @@
 
 .latest-news-date{
   font-size: 1em;
+  margin-bottom: 2%;
   color: #888888;
   /* margin-top: 5px; */
 }
 
 .latest-news-title{
-  font-size: 1.75em;
+  font-size: 1.65vw;
+  letter-spacing: 1px;
+  font-weight: bolder;
+
   /* margin-top: 5px; */
 }
 
 .latest-news-text{
   font-size: 1em;
-  font-weight: lighter;
+  font-family: Scout Condensed Thin;
+  letter-spacing: 1px;
   margin-top: 5px;
   /* padding-right: 10px; */
 }

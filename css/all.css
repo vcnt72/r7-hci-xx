@@ -18,10 +18,8 @@ body {
 }
 
 .btn {
-  border-radius: 3px;
+  border-radius: 1;
   display: block;
-  color: initial;
-  border-color: initial;
 }
 
 @media only screen and (max-width: 800px) {

@@ -15,7 +15,7 @@
 
   .container-page-2{
     width:100%;
-    height: auto;
+    height: 200px;
   }
 
   .title-main{
@@ -26,26 +26,67 @@
     /* margin: 26px 0px 0px 0px; */
   }
 
-  .season-content{
+  .season-flex-container{
     display: flex;
+    justify-content: center;
     margin-top: 3%;
     width: 100%;
     height: auto;
   }
-
-  .season-name{
-    position: absolute;
-    background-color: #272727;
-    height: auto;
-    width: 100%;
+  
+  .season-content{
+    text-align: center;
+    margin: 2%;
     color: white;
-    font-size: 1em;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
   }
-
-  .arrow-left, .arrow-right{
+  
+  .season-slide{
+    display: none;
+    max-width: 100%;
+    margin: auto;
+  }
+  .season-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  .season-name{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    font-size: 3vw;
+  }
+  
+  .season-arrow-left{
+    text-align: center;
+    /* margin: 2%; */
+    color: white;
     width: 25%;
+    height: auto;
+    /* border-width: 10px; */
   }
-
+  
+  .season-arrow-right{
+    text-align: center;
+    /* margin: 2%; */
+    color: white;
+    width: 25%;
+    height: auto;
+    /* border-width: 10px; */
+  }
+  
+  .arrow-right{
+    width: 50%;
+  }
+  
+  .arrow-left{
+    width: 50%;
+  }
+  
   .container-page-3{
     width:100%;
     height: auto;
@@ -76,7 +117,7 @@
   }
 
   .latest-news-title{
-    font-size: 1em;
+    font-size: 6vw;
     /* margin-top: 5px; */
   }
 
