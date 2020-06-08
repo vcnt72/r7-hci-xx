@@ -8,12 +8,56 @@ nav .navbar-container {
   background-color: black;
   padding: 10px 50px;
   justify-content: space-between;
-  font-family: 'Oswald';
 }
 
 nav .navbar-container li {
   font-size: 1.75em;
   display: inline-block;
+}
+
+nav .navbar-container .navbar-side-container .responsive {
+  display: none;
+}
+
+nav .navbar-container .navbar-side-container .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+nav .navbar-container .navbar-side-container .drop-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Scout Condensed Bold";
+  font-size: 1.75em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+nav .navbar-container .navbar-side-container .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  margin: 0 18%;
+}
+
+nav .navbar-container .navbar-side-container .dropdown-content a {
+  color: white;
+  font-size: 1.75em;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  transition: 0.2s ease;
+}
+
+nav .navbar-container .navbar-side-container .dropdown-content a:hover {
+  color: rgb(54, 169, 224);
+  transform: 0.2s ease;
+}
+
+nav .navbar-container .navbar-side-container .dropdown:hover .dropdown-content {
+  display: block;
 }
 
 nav .navbar-container .logo-container {
@@ -25,7 +69,7 @@ nav .navbar-container .navbar-side-container {
 }
 
 nav .navbar-container .navbar-side-container .nav-text {
-  padding-left: 40px;
+  margin-left: 40px;
 }
 
 nav .navbar-container .navbar-side-container li .pre-order-container {

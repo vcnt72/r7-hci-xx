@@ -1,12 +1,17 @@
 .navbar-vertical {
+  position: fixed;
   background-color: black;
   list-style: none;
   width: 100%;
   border-bottom: 1px solid white;
+  margin-top: 18%;
   padding: 10px 5%;
-  position: fixed;
   height: auto;
   color: white;
+}
+
+.navbar-vertical button {
+  display: none;
 }
 
 .navbar-vertical-hide {
