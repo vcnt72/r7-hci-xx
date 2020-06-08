@@ -29,6 +29,7 @@
 }
 
 .double-arrow {
+  cursor: pointer;
   width: 5%;
   display: block;
   margin-left: auto;
@@ -53,7 +54,6 @@
   font-size: 4vw;
   text-align: center;
   color: white;
-  /* margin: 26px 0px 0px 0px; */
 }
 
 .season-flex-container {
@@ -66,7 +66,6 @@
 
 .season-content {
   text-align: center;
-  /* margin: 2%; */
   color: white;
   width: 50%;
   height: auto;
@@ -93,20 +92,22 @@
 
 .season-arrow {
   text-align: center;
+  padding-top: 10%;
   width: 25%;
   height: auto;
 }
 
-.arrow-right {
-  margin-top: 50%;
-  /* padding: 40% 20% 20% 20%; */
-  transform: rotate(-90deg);
+.arrow-prev,
+.arrow-next {
+  width: 100%;
+  font-size: 7vw;
+  color: white;
+  cursor: pointer;
 }
 
-.arrow-left {
-  margin-top: 50%;
-  /* padding: 40% 20% 20% 20%; */
-  transform: rotate(90deg);
+.arrow-prev:hover,
+.arrow-next:hover {
+  color: grey;
 }
 
 .container-page-3 {
@@ -155,6 +156,7 @@
 
 .highlight-title {
   font-size: 1.75em;
+  letter-spacing: 1px;
   padding-top: 3px;
 }
 
@@ -190,18 +192,20 @@
 .latest-news-date {
   font-family: "Scout Condensed Thin";
   font-size: 1em;
+  margin-bottom: 2%;
   color: #888888;
   /* margin-top: 5px; */
 }
 
 .latest-news-title {
   font-size: 1.75em;
-  /* margin-top: 5px; */
+  letter-spacing: 1px;
 }
 
 .latest-news-text {
   font-size: 1.5em;
   font-family: "Scout Condensed Light";
+  letter-spacing: 1px;
   margin-top: 5px;
   /* padding-right: 10px; */
 }
